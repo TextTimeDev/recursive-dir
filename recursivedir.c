@@ -3,8 +3,6 @@
 #include <string.h>
 #include <dirent.h>
 
-#define MAX_SIZE 1024
-
 void print_func(char *str, void *arg) {
 	printf ("%s\n", str);
 }
